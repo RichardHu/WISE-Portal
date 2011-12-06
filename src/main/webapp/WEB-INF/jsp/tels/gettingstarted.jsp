@@ -1,4 +1,6 @@
 <%@ include file="./include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
+
 <html>
 <head>
 <!DOCTYPE html>
@@ -42,7 +44,7 @@
 					<div class="sectionContent">
 						<ol>
 							
-							<li><spring:message code="gettingstarted.select-create-new" /> <a href="/webapp/signup.html">Sign Up</a></li>
+							<li><spring:message code="gettingstarted.select-create-new" /> <a href="/webapp/signup.html">註冊</a></li>
 							
 							<li><spring:message code="gettingstarted.select-teacher-account" /></li>
 							
@@ -56,7 +58,7 @@
 					<div class="sectionHead"><spring:message code="gettingstarted.set-up-new-run" /></div>
 					<div class="sectionContent">
 						<ol>
-							<li><a href="/webapp/login.html"><spring:message code="gettingstarted.log-in-new-account" /> </a> <spring:message code="gettingstarted.log-in-new-account2" /></li>
+							<li><a href="/webapp/login.html"><spring:message code="gettingstarted.log-in-new-account" /> </a> <!--<spring:message code="gettingstarted.log-in-new-account2" />--></li>
 							
 							<li><spring:message code="gettingstarted.select-browse-project" /> <a href="/webapp/teacher/management/library.html"><spring:message code="gettingstarted.select-browse-project2" /></a></li>
 							

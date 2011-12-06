@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=utf-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -33,37 +34,41 @@
 		<div id="pageContent">
 			<div class="contentPanel">
 			
-				<div class="panelHeader">WISE Research & Technology</div>
+				<div class="panelHeader">WISE研究 & 科技</div>
 				
 				<div class="panelContent">
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/wise-research.png" alt="research" />
-						<div class="featureContentHeader">Research Overview</div>
+						<div class="featureContentHeader">研究概觀</div>
 						<div class="featureContent">
-							<p>Emerging from research collaborations started over 20 years ago, the WISE Community develops instructional programs that use educational technology to help middle school and high school students master complex scientific concepts. This community consists of partnerships between teachers, educational researchers, practicing scientists, and technology experts. WISE projects and software are developed by researchers in the <a href="http://telscenter.org" target="_blank">Technology Enhanced Learning in Science (TELS) Community</a>.  The TELS Community includes partners at thirteen universities, a nonprofit educational research and development organization, and fifteen school districts. Local WISE teachers collaborate on research projects by providing their practitioner's perspective during annual summer retreats and teacher interviews.</p>
+							<p>從20年前的合作研究開始，WISE社群運用教育科技開發教學課程，來幫助國高中學生熟悉複雜的科學概念。這個社群由教師、教育研究者、科學家與科技專家所組成。WISE專案與軟體由<a href="http://telscenter.org" target="_blank">Technology Enhanced Learning in Science (TELS) Community</a>的研究者所開發。TELS社群的夥伴包含十三個大學、一個非營利教育研究與發展組織，還有十五個學區。使用WISE專案的當地合作教師，在每年的暑期座談會與教室面談會中提供他們實務的觀點。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/ki.png" alt="knowledge integration" />
 						<div class="featureContent">
-							<div class="featureContentHeader" id="ki">Knowledge Integration</div>
-							<p>Students grapple with multiple, conflicting, and confusing ideas about science. WISE curriculum and technology development is driven by a rich research tradition that has shown that instruction is most effective when teachers use students' views as a starting point for scientific investigations. When teachers and instructional materials guide learners as they articulate their repertoire of ideas, add new ideas, sort out their ideas in a variety of contexts, and make connections at multiple levels of analysis, they develop more nuanced criteria for evaluating ideas, and, ultimately, formulate a linked set of views about scientific phenomena. TELS Director Marcia C. Linn characterizes this as the <span style="font-weight:bold">Knowledge Integration</span> framework and it forms the basis of WISE projects and assessments. (For more information, visit the <a href="http://telscenter.org" target="_blank">TELS website</a> and view our <a href="http://telscenter.org/publications" target="_blank">research publications</a>.)</p>
+							<div class="featureContentHeader" id="ki">知識整合</div>
+							<p>學生解決科學中多樣、衝突以及困惑的想法。豐富的研究傳統驅動WISE課程與科技的發展，研究顯示當教師以學生觀點出發來從事科學探究，這樣的教學是最有效的。當教師和教學資源引導學習者，在不同的情境脈絡中清晰地表達個人的想法、增加新想法以及整理想法，而且在不同程度的分析中產生連結，他們發展了更細微的準則，用來評判想法、歸納與公式化有關科學現象的連結性觀點。TELS的領導者Marcia C. Linn描繪此為知識整合架構，而它也形成WISE專案與評量的基礎。(更多資訊在<a href="http://telscenter.org" target="_blank">TELS網站</a>以及<a href="http://telscenter.org/publications" target="_blank">TELS研究出版</a>)</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/wise-group.png" alt="wise retreat group" />
-						<div class="featureContentHeader">Research Goals</div>
+						<div class="featureContentHeader">研究目標</div>
 						<div class="featureContent">
-<ol><li><span style="font-weight:bold;">Curriculum development:</span> Create and document new learning environments enriched by computer visualization of scientific phenomena that teachers can customize; test these learning environments in school with diverse student populations.</li>
-<li><span style="font-weight:bold;">Professional development:</span> Increase the number and diversity of teachers and administrators who can take full advantage of technology-enhanced science education.</li>
-<li><span style="font-weight:bold;">Graduate education:</span> Expand graduate programs that prepare leaders and experts in science education technology, curriculum development, professional development and education policy.</li>
-<li><span style="font-weight:bold;">Science education research:</span> Increase the amount and quality of research examining how effectively technology can improve science learning.</li>
-<li><span style="font-weight:bold;">Effective use of technology:</span> Form partnerships dedicated to enhancing technology-enhanced science education; form open source communities to design improved instructional materials.</li></ol>
+<ol><li><span style="font-weight:bold;">課程發展：</span><br>教師可透過建立與註解新的學習環境來客製化課程，科學現象的電腦視覺表徵增加了這些學習環境的豐富性；在學校對不同的學生族群測試這些學習環境。
+</li>
+<li><span style="font-weight:bold;">專業發展：</span><br>增加能完全利用科技促進科學教育之教師與管理者的數量及類型。</li>
+<li><span style="font-weight:bold;">研究生教育：</span><br>擴展研究生的課程以培養科學教育科技、課程發展、專業發展以及教育政策的領導者與專家。
+</li>
+<li><span style="font-weight:bold;">科學教育研究：</span><br>增加研究的量與質以調查有效的科技如何促進科學學習。</li>
+<li><span style="font-weight:bold;">有效運用科技：</span><br>組織夥伴關係致力於提高科技促進科學教育；成立開放原始碼社群設計經過改進的教學資源。
+</li></ol>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
+					<!--
 					<div class="featuresShowcase left">
 						<div class="featureContent">
 							<img src="/webapp/themes/tels/default/images/features/tels-projects.png" alt="tels nsf projects" />
@@ -79,34 +84,35 @@
 						</div>
 						<div style="clear:both;"></div>
 					</div>
+					-->
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/wise-results.png" alt="results" />
-						<div class="featureContentHeader">Proven Learning Gains</div>
+						<div class="featureContentHeader">被證明的學習改善</div>
 						<div class="featureContent">
-							<p>WISE curricula have been tested in middle and high school classrooms for over two decades in more than ten school districts. Prior research has shown that WISE curriculum units improve student learning of difficult standards-based science topics (<a href="http://www.sciencemag.org/content/313/5790/1049.citation" target="_blank">Linn et al., 2006</a>) and that students continue to integrate their ideas and strengthen their understanding even after the units have been completed. For more information about WISE learning results, visit the <a href="http://telscenter.org/publications" target="_blank">TELS publications database</a>.</p>
+							<p>WISE課程已經在國高中的課堂上測試超過二十年的時間，遍及了超過十個學區。之前的研究顯示WISE課程單元增進學生困難科學主題的學習(<a href="http://www.sciencemag.org/content/313/5790/1049.citation" target="_blank">Linn et al., 2006</a>)，而即使在單元結束後，學生持續地整合想法以及增強他們的理解。更多關於WISE學習成果的資訊，瀏覽<a href="http://telscenter.org/publications" target="_blank">WISE出版資料庫</a>。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/collaborators.png" alt="collaborators" />
 						<div class="featureContent">
-							<div class="featureContentHeader" id="technology">Open Source Technology</div>
-							<p>As an open source platform, WISE can support a range of curriculum development and instructional technology research agendas. Originally developed to support research on inquiry-based science learning in middle schools, WISE has been adapted to support research in K-12 and college-level engineering education (<a href="http://www.wisengineering.org" target="_blank">http://www.wisengineering.org</a>), used to support research on how high school students construct arguments using database evidence (<a href="http://www.sciencemathpartnerships.net/webapp/index.html" target="_blank">http://www.sciencemathpartnerships.net/webapp/index.html</a>), combined with a learning management system to research computer science education at the university level (<a href="http://sage.cs.berkeley.edu/" target="_blank">http://sage.cs.berkeley.edu/</a>), and translated into Chinese to support earth science education in Taiwan (<a href="http://140.122.162.127:8080/webapp/index.html" target="_blank">http://140.122.162.127:8080/webapp/index.html</a>). Independent K-12 teachers have also created their own curriculum for different subject areas using the WISE platform. These adaptations and independent creations are a testament to WISE's ease of use and flexibility as a curriculum and instructional technology platform.</p>
+							<div class="featureContentHeader" id="technology">開放原始碼科技</div>
+							<p>WISE是開放原始碼平台，可以支持課程發展以及教學科技研究事項的範疇。原本發展來支持中學探究式科學學習的研究，WISE現在已經適合支持K-12與大學程度工程教育的研究(<a href="http://www.wisengineering.org" target="_blank">http://www.wisengineering.org</a>)。支持高中學生如何使用資料庫證據來建構論點(<a href="http://www.sciencemathpartnerships.net/webapp/index.html" target="_blank">http://www.sciencemathpartnerships.net/webapp/index.html</a>)，結合學習管理系統以研究大學程度的電腦科學教育(<a href="http://sage.cs.berkeley.edu/" target="_blank">http://sage.cs.berkeley.edu/</a>)，並且翻譯了中文化課程來支持臺灣的地球科學教育(<a href="http://twise4.es.ntnu.edu.tw:8080/webapp/index.html" target="_blank">http://twise4.es.ntnu.edu.tw:8080/webapp/index.html</a>)。K-12獨立教師也運用WISE平台建構了不同主題領域的課程。這些改編與獨立建構是WISE做為一個容易使用且具彈性之課程與教學科技平台的例證。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/wise4-org.png" alt="wise4.org" />
-						<div class="featureContentHeader">WISE Developer Community</div>
+						<div class="featureContentHeader">WISE開發社群</div>
 						<div class="featureContent">
-							<p>We are developing an active and dynamic software developer community around WISE. Custom WISE servers have been installed at the University of Washington, University of Virginia, University of Toronto, and the National Taiwan Normal University. Some of these adopters have already run WISE projects in local classrooms and collected research data (University of Washington), while others are preparing for pilot runs for this coming fall (University of Virginia and Taiwan Normal). WISE adopters have re-skinned the WISE4 website, helped us translate WISE into traditional Chinese, and are actively creating new step types and learning activities. For more information about collaborting with WISE and how to install our software on your own server, visit our Developers Site (<a href="http://wise4.org" target="_blank">http://wise4.org</a>) and join our <a href="https://groups.google.com/forum/?pli=1#!forum/wise4-dev" target="_blank">WISE4 Developers Google Group</a>.</p>
+							<p>我們正在發展一個以WISE為中心，活躍與動態的軟體開發者社群。客製化的WISE伺服器已經建置在華盛頓大學、維吉尼亞州立大學、多倫多大學、臺灣師範大學與臺灣高雄師範大學。一些採用者已經在當地的課堂實施WISE專案而且蒐集研究資料(華盛頓大學)。WISE採用者幫助我們將WISE翻譯成繁體中文，以及主動地建立新的步驟類型和學習活動。關於和WISE合作以及如何安裝軟體在你的伺服器等相關資訊，請瀏覽我們的開發者網站(<a href="http://wise4.org" target="_blank">http://wise4.org</a>)並加入我們的<a href="https://groups.google.com/forum/?pli=1#!forum/wise4-dev" target="_blank">WISE4開發者論壇</a>。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase">
 						<div class="featureContent">
-							<div class="featureContentHeader">Opportunities for Collaboration</div>
-							<p>We are always looking for new research and development collaborations. If you are interested in connecting with the WISE research community or have any questions, don't hesitate to <a href="/webapp/contactwisegeneral.html">contact us</a>! </p>
+							<div class="featureContentHeader">合作機會</div>
+							<p>我們正在尋求新的研究與發展合作機會。如果您對WISE研究社群有興趣或者有任何問題，請<a href="/webapp/contactwisegeneral.html">與我們聯繫</a>。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>

@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -35,30 +36,30 @@
 			<div class="contentPanel">
 			
 				<div class="panelHeader">
-					Teaching With WISE
+					使用WISE教學
 				</div>
 				
 				<div class="panelContent">
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/wise-teacher.png" alt="Teaching with WISE" />
 						<div class="featureContent">
-							<div class="featureContentHeader">WISE Teacher Tools</div>
-							<p>To guide students through inquiry-based WISE curricula, teachers survey students' ideas on an individual or small group basis and periodically address the whole class about course content. WISE provides teachers with a suite of integrated tools for efficiently managing and promoting student learning with WISE. Teachers monitor students' real-time progress, provide immediate feedback on student work, and grade more efficiently using automated scoring systems. </p>
-							<p>By more effectively facilitating classroom management tasks, teachers are free to focus on diverse students' learning needs by interacting with individual students and gaining insights about classroom learning as a whole.</p>
-							<p>WISE provides a wide range of one-week long inquiry units that address key concepts consistent with California and national standards. WISE units can not only fit with teachers' excising curricula across science topics, but can also be specifically customized for classroom use.</p>
+							<div class="featureContentHeader">WISE教師工具</div>
+							<p>為了引導學生進入探究式的WISE課程，老師透過個別或小組的方式調查學生的想法，而且週期性地對全班提出關於整個課程的內容。WISE提供教師一系列的整合性工具來有效管理與促進學生使用WISE學習。教師可以即時觀看學生的學習過程，在學生實作中給予立即的回饋，並且可以使用自動化評分系統有效率地進行評分。 </p>
+							<p>在更有效地促進課程管理工作方面，透過與個別學生的互動以及洞悉整個課堂的學習狀況，教師可以自由地關注不同學生的學習需求。</p>
+							<p>WISE提供了各式各樣一個星期長度的探索單元，包含了與加州以及全國標準一致的重要概念。WISE單元不只符合教師現有的科學課程主題，而且可以客製化給予課堂使用。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
-					<div class="featureContentHeader">Highlighted Features</div>
+					<div class="featureContentHeader">重要特色</div>
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/teacher-manage.png" alt="management" />
 						<div class="featureContent">
-							<p class="featureHeader">Managing, Pacing, & Engaging with Students</p>
+							<p class="featureHeader">管理、掌握與促進</p>
 							<ul>
-								<li><span style="font-weight:bold;">Progress Monitor:</span> View student work online in real-time with the Classroom Monitor. The tool allows teachers to quickly assess the progress of each student group and determine whether individualized or class-wide interventions are necessary.</li>
-								<li><span style="font-weight:bold;">Step Completion Display:</span> See the percentage of students who have completed particular steps and activities in WISE projects. This feature provides a quick and simple way of determining how the class is progressing through a project.</li>
-								<li><span style="font-weight:bold;">Pause Screens:</span> Pause work on student computers simultaneously. This feature can be used to focus student attention on a particular activity for a class discussion or to control the pacing of student progress through a WISE project.</li>
-								<li><span style="font-weight:bold;">Flag Student Work:</span> Select specific student responses to share, discuss, or review (anonymously) with the whole class. Carefully chosen student examples can serve as an effective basis for reviewing key ideas or generating criteria for evaluating work.</li>
+								<li><span style="font-weight:bold;">過程的掌握：</span><br>用Classroom Monitor可以即時觀看學生線上實作情形。這個工具讓教師很快地評估每個學生小組的進行過程，並決定是否有需要介入個別學生或班級。</li>
+								<li><span style="font-weight:bold;">步驟完成呈現：</span><br>可觀看學生在WISE課程中特殊步驟和活動的完成度百分比。這個特性提供了快速而簡易的方式，去確認透過WISE課程課堂是如何進行的。</li>
+								<li><span style="font-weight:bold;">停留畫面：</span><br>停留功能在學生電腦同步實施，這個特性可以用來讓學生集中注意力於特殊的活動，如課堂討論或者控制學生WISE課程的學習步調。</li>
+								<li><span style="font-weight:bold;">學生實作標記：</span><br>選取學生整個課堂上分享、探討或評論的特殊回應。謹慎地選取學生的例子可以當作一個有效的基礎，用來檢視主要的想法，或者對評價實作產生準則。</li>
 							</ul>
 						</div>
 						<div style="clear:both;"></div>
@@ -66,11 +67,11 @@
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/teacher-grading.png" alt="grading and feedback" />
 						<div class="featureContent">
-							<p class="featureHeader">Grading & Feedback</p>
+							<p class="featureHeader">評分 & 回饋</p>
 							<ul>
-								<li><span style="font-weight:bold;">Grade Student Work & Provide Feedback:</span> Easily view student work to submit scores and comments that students can review and reflect on. Teachers can grade student work by curriculum step or by student team. </li>
-								<li><span style="font-weight:bold;">Pre-Made Comments:</span> Edit and use templates for commonly utilized feedback comments on student work. Teachers can creat pre-made comments to streamline the process of generating feedback for hundreds of student responses.</li>
-								<li><span style="font-weight:bold;">Autoscoring Assessments:</span> Score student work using WISE's autoscoring algorithms. This new and developing feature will aim to assist teachers with quickly and accurately assessing student work on key curriculum steps.</li>
+								<li><span style="font-weight:bold;">評判學生實作 & 提供回饋：</span><br>很容易觀看學生的實作並評分以及下評語，學生並可檢視與回應。教師可以依據課程步驟或者學生小組團隊來評判學生的實作。 </li>
+								<li><span style="font-weight:bold;">預先的評語：</span><br>編輯與使用平常對於學生實作會用到的回饋評語模板。教師可以建立預先的評語讓回饋上百位學生的回應過程變得流暢。</li>
+								<li><span style="font-weight:bold;">自動評分評量：</span><br>使用wise自動評分規則為學生評分。這個新發展的特性將輔助教師快速而正確地評判學生在重要課程步驟的實作情形。</li>
 							</ul>
 						</div>
 						<div style="clear:both;"></div>
@@ -78,10 +79,10 @@
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/teacher-customization.png" alt="customization" />
 						<div class="featureContent">
-							<p class="featureHeader">Customizing Curricula</p>
+							<p class="featureHeader">客製化課程</p>
 							<ul>
-								<li><span style="font-weight:bold;">WISE Authoring Tool:</span> Create customized curriculum projects targeted to specific classroom contexts. The WISE authoring features allow for flexibility and creativity with designing curriculum pages and embedded assessments. Curriculum authors can tailor existing WISE projects for their specific needs and even create brand new projects on any topic they want.</li>
-								<li><span style="font-weight:bold;">Sharing Projects:</span> Provide access to other WISE teachers. WISE users can share projects with other teachers who may want to run the projects in their classrooms and/or further customize them. By sharing projects, curriculum authors can collaboratively edit and refine WISE units.
+								<li><span style="font-weight:bold;">WISE編輯工具：</span><br>建立客製化的課程以符合特殊的課堂背景。WISE用設計課程頁面與嵌入式評量的方式提供了彈性與創造性。課程的編輯者可以修改現有的WISE課程以符合特殊的需求，甚至建立任何主題的全新課程。</li>
+								<li><span style="font-weight:bold;">分享課程：</span><br>提供其他WISE教師取得課程。WISE使用者可以分享課程給想要在課堂上實施或者想客製化修改的教師。透過分享課程，課程編輯者可以合作編輯並且精緻化課程單元。
 							</ul>
 						</div>
 						<div style="clear:both;"></div>

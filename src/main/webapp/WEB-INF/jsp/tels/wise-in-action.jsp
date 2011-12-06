@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -33,74 +34,65 @@
 		<div id="pageContent">
 			<div class="contentPanel">
 			
-				<div class="panelHeader">The WISE Experience</div>
+				<div class="panelHeader">WISE經驗</div>
 				
 				<div class="panelContent">
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/teacher-profile.png" alt="teacher profile" />
-						<div class="featureContentHeader">Teacher Profile (Middle School Science, California)</div>
+						<div class="featureContentHeader">教師輪廓(中學科學，加州)</div>
 						<div class="featureContent">
-							<p>"I started using WISE 7 years ago. I was eager for new ways to help my students understand science
-concepts that are difficult to see...I continue to add new WISE projects to my curriculum and
-customize the projects that I have taught for years based on how
-I see my students making sense of the concepts.</p>
-							<p>The students like to run the models over and over again. For the English Language Learners these are especially important so they don't have a language barrier. The models and visualizations help to create scientific connections.</p>
-							<p>I use the grading tools to try to catch
-misconceptions... I found that giving comments first, and then a score was most successful in getting
-students to go back and think hard about their ideas. I have also started using exit tickets
-with questions from the project, so I can assess on a period to period basis where the
-misconceptions are... This helps me improve my teaching for the subsequent periods of the day as
-well as those classes the next day.</p>
-							<p>This is my seventh year using WISE, and I continue to learn. I have found it is harder to teach with inquiry because you need more time and patience. In the classroom, we seem to have less and less time. Even though it is sometimes harder, I feel that students take more control over their learning in the WISE inquiry projects and therefore it is more meaningful. Many of
-my colleagues have also started using WISE. It is wonderful to talk and discuss with my peers about runs. We come up with ideas about class instruction, grading of steps, and keeping students engaged in working with their partners."</p>
+							<p>我七年前開始使用WISE。我總是熱切希望有新的方式幫助我的學生理解困難的科學概念。我持續新增WISE課程到我的課程中，而基於我認為我的學生如何對科學概念有感覺，我也客製化已經教了幾年的課程。</p>
+							<p>學生喜歡一次又一次地使用這些模型。對於英語系的學習者來說是特別重要，因為他們沒有語言的障礙。這些模型和視覺化表徵幫助建立科學的連結。</p>
+							<p>我用評分工具試著去找到錯誤的理解。我發現要先給評論然後給予分數可以成功讓學生回去努力思考他們的想法。 我也使用問題讓學生在課程中回答, 所以我可以得知一段時間以來學生比較不理解的地方，這在隨之而來的一段日子裡幫助我增進我的教學，而且是在那些課程之後。</p>
+							<p>這是我第七年使用WISE而且我也持續在學習。我發現用探究來教學是困難的因為你需要更多時間與耐心。在教室中，我們的時間愈來愈少。即使有時候是比較困難的，我感覺學生在WISE探究課程中更能掌控他們的學習，也因此變得更有意義。很多我的同事也開始使用WISE。和同事有實務上的討論是很棒的。我們有一些想法關於課堂教學、評分步驟以及讓學生投入和夥伴一起實作。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/inquiry-curricula.png" alt="inquiry curricula" />
 						<div class="featureContent">
-							<div class="featureContentHeader">Inquiry Curricula</div>
-							<p><a href="/webapp/previewprojectlist.html">WISE units</a> provide a window on the practice of authentic science by guiding students through inquiry investigations about relevant issues. Students build scientific understanding from productive, everyday ideas they have about science in real world contexts. WISE units engage students in diverse inquiry activities that reflect the practice of professional science, such as prediction and hypothesis, experimentation and data analysis, debate and argumentation, collaboration, critique, and reflection. WISE tools provide specific supports for these complex activities. WISE also has built in support for students to monitor their own progress, guiding students toward becoming autonomous learners.</p>
+							<div class="featureContentHeader">探究課程</div>
+							<p>WISE單元引導學生相關議題的探究調查，提供了一個可靠的科學實作視窗。學生從日常生活每天產生的想法中建立科學的理解。WISE單元讓學生投入多樣性的探究活動，這些活動可以帶給學生專業科學的練習。例如預測與假設、實驗與資料分析、辯論、合作、評論與反思。WISE工具提供這些複雜活動特別的支持。WISE也建立了支持的機制讓學生掌控自己的學習過程，引導學生成為自主的學習者。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/teacher-role.png" alt="teacher's role" />
-						<div class="featureContentHeader">The Teachers' Role</div>
+						<div class="featureContentHeader">教師角色</div>
 						<div class="featureContent">
-							<p>Teachers are essential to the success of WISE projects. During class, successful teachers survey students' ideas on an individual or small group basis (in real-time) and periodically address the whole class about difficult concepts. Furthermore, teachers guide and evaluate the learning process using a suite of <a href="/webapp/pages/teacher-tools.html">classroom-based and online tools</a>.</p>
+							<p>教師對WISE課程的成功來說是不可或缺的。在課堂中，成功的教師以個人或小組為基礎調查學生的想法(即時)，而且一段時間就對全班講述困難的概念。此外教師使用一系列以教室為基礎的線上工具來引導與評量學習過程。</a>.</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/partnership-design.png" alt="partnership design" />
 						<div class="featureContent">
-							<div class="featureContentHeader" id="partnershipDesign">Partnership Design</div>
-							<p>WISE units are products of partnerships between researchers, content experts, classroom teachers, and technology developers. We collaborate with teachers in our partner schools to identify key science topics that perplex students and successful ways to help students learn these difficult topics. <a href="/webapp/pages/research-tech.html#ki">Inquiry-based design principles</a> guide the development of our WISE curricula. All units go through an iterative design process of multiple cycles of design, evaluation, and refinement; through annual summer retreats and teacher interviews, teachers provide key insights at multiple stages of this design process. WISE units align with state and national science content, experimentation, and inquiry standards from grade 5 to grade 12.</p>
+							<div class="featureContentHeader" id="partnershipDesign">協同設計</div>
+							<p>WISE單元是研究者、內容專家、課程教師與科技開發者的協同產物。我們和夥伴學校的教師合作，確認會使學生困惑的重要科學主題，而且成功地幫助學生學習這些困難的主題。探究式設計原則引導我們WISE課程的發展。所有單元都經過設計、評估與精緻化這些不斷的循環過程；透過暑期研討會與教師面談，教師在這個設計過程的多個階段提供了重要的洞見。WISE單元編排在州與國家科學內容、實驗與探究標準之中，適合5~12年級。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase right">
 						<img src="/webapp/themes/tels/default/images/features/assessments.png" alt="wise assessments" />
-						<div class="featureContentHeader">Standards-Aligned Assessments</div>
+						<div class="featureContentHeader">標準校正評量</div>
 						<div class="featureContent">
-							<p>WISE curriculum units contain both embedded formative assessment items and pre- and post-project summative assessment items. They align with state content standards and have been validated by psychometric analyses to capture an equivalent or even broader range of student aptitudes than items used in standardized tests (<a href="http://www.tandfonline.com/doi/abs/10.1080/10627190801968224" target="_blank">Liu, Lee, Hoftstetter, & Linn, 2008</a>; <a href="http://www.sciencemag.org/content/313/5790/1049.full.pdf" target="_blank">Linn et al., 2006</a>).</p>
+							<p>WISE課程單元包含了嵌入式的形成性評量項目以及課程前後的總成性評量項目，安排在州的內容標準中，而且已經被心理測量學家分析後證實，等同於甚至比標準的測量工具更廣泛地捕捉學生的學習傾向 (Liu, Lee, Hoftstetter, & Linn, 2008; Linn et al., 2006)。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase left">
 						<img src="/webapp/themes/tels/default/images/features/administrators.png" alt="administrators" />
 						<div class="featureContent">
-							<div class="featureContentHeader">Administration Partnerships</div>
-							<p>Administrators are central to teacher and student learning with WISE. Integrating WISE into a school's instructional vision, organizing teacher professional development, garnering technology resources, and ensuring exciting science learning opportunities for all students are just a few of the educational leader's many roles. Our research team works closely with school administrators to make sure we understand what it takes to integrate WISE into a district or school science program.</p>
-							<p>There are many ways for administrators to get involved with WISE. Please do not hesitate to <a href="/webapp/contactwisegeneral.html">contact us</a> to begin the discussion!</p>
+							<div class="featureContentHeader">管理者夥伴</div>
+							<p>管理者是教師和學生使用WISE學習的核心。整合WISE到學校的教學洞見、組織教師的專業發展、獲取科技資源以及確保所有學生現有的科學學習機會，是一些教育領導者所扮演的角色。我們的研究團隊和學校管理者的密切配合，能確保我們了解應採取什麼方式去整合WISE到地區或學校的科學課程之中。</p>
+							<p>有許多方式讓管理者接觸WISE，請不要猶豫與我們聯繫來進一步討論。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
 					<div class="featuresShowcase">
-						<div class="featureContentHeader">Alternative Learning Contexts</div>
+						<div class="featureContentHeader">選擇性學習脈絡</div>
 						<div class="featureContent">
-							<p>WISE curricula are customizable and can be adapted to a variety of contexts and needs - beyond the traditional classroom. Extensive testing has led WISE to develop a variety of supports for diverse learners. Although each WISE unit consists of a carefully designed sequence of activities based on research findings, the activities are modular and can be combined with off-line activities, such as hands-on demonstrations and labs, and add value to existing instruction. For example, afterschool programs and home-school instructors teaching global climate change may want to use the WISE Global Climate Change's NetLogo model and associated prompts to allow students to experiment with different conditions.</p>
+							<p>WISE課程是可客製化而且可以適應不同的學習背景和需求，而不只是傳統的教室課程。廣泛的測試引領WISE發展給予不同學習者的多樣性支持。雖然每個WISE單元是以研究發現為基礎，包含活動的嚴謹設計流程，這些活動已經模組化而且可以結合離線的活動，像是動手做的示範與實驗，能為現有的教學加值。例如，課外活動與家庭教師教全球氣候變遷時也許會想運用WISE全球氣候變遷的NetLogo模組和結合性的提示，讓學生在不同的情況下做實驗。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>

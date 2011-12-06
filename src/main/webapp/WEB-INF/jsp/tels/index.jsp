@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=utf-8"%>
 
 <!-- $Id$ -->
 
@@ -184,23 +185,23 @@
 			</div>
 			
 			<div class="showcase">
-				<div id="projectHeader" class="feature"><span class="featureContent">WISE Projects</span><a class="projectsLink" href="/webapp/previewprojectlist.html" title="WISE Project Library">Browse WISE Curricula +</a></div>
+				<div id="projectHeader" class="feature"><span class="featureContent">WISE專案</span><a class="projectsLink" href="/webapp/previewprojectlist.html" title="WISE Project Library">瀏覽WISE課程</a></div>
 				<div id="features">
-					<div id="featureHeader" class="feature"><span class="featureContent">WISE Features</span></div>
+					<div id="featureHeader" class="feature"><span class="featureContent">WISE特色</span></div>
 					<div id="featuresContent">
-						<p><a href="/webapp/pages/features.html">Learning Environment +</a></p>
-						<p><a href="/webapp/pages/teacher-tools.html">Teacher Tools +</a></p>
-						<p><a href="/webapp/pages/gettingstarted.html">Getting Started +</a></p>
-						<p id="checkCompatibility"><a href="/webapp/check.html">Check Compatibility +</a></p>
+						<p><a href="/webapp/pages/features.html">學習環境 +</a></p>
+						<p><a href="/webapp/pages/teacher-tools.html">教師工具 +</a></p>
+						<p><a href="/webapp/pages/gettingstarted.html">開始體驗 +</a></p>
+						<p id="checkCompatibility"><a href="/webapp/check.html">電腦相容性確認 +</a></p>
 					</div>
 				</div>
 				<div id="projectShowcase">
 					<div id="project-showcase">
 						<dl>
-							<dt>Earth Science</dt>
+							<dt>地球科學</dt>
 						    <dd>
-						    	<div class="tinycarousel">
-							    	<a href="#" class="buttons prev">&#9650;</a>
+						    	<div class="tinycarousel"> 
+							    	<a href="#" class="buttons prev"></a>
 								    <div class="viewport">
 								        <ul class="overview">
 									    	<c:forEach var="project" items="${esProjects}">
@@ -224,7 +225,7 @@
 								    </ul>
 							    </div>
 						    </dd>
-						    <dt>Life Science</dt>
+						    <dt>生命科學</dt>
 						    <dd>
 						    	<div class="tinycarousel">
 							    	<a href="#" class="buttons prev">&#9650;</a>
@@ -251,7 +252,7 @@
 								    </ul>
 							    </div>
 						    </dd>
-						    <dt>Physical Science</dt>
+						    <dt>自然科學</dt>
 						    <dd>
 						    	<div class="tinycarousel">
 							    	<a href="#" class="buttons prev">&#9650;</a>
@@ -278,7 +279,7 @@
 								    </ul>
 							    </div>
 						    </dd>
-						    <dt>Biology</dt>
+						    <dt>生物學</dt>
 						    <dd>
 						    	<div class="tinycarousel">
 							    	<a href="#" class="buttons prev">&#9650;</a>
@@ -305,7 +306,7 @@
 								    </ul>
 							    </div>
 						    </dd>
-						    <dt>Chemistry</dt>
+						    <dt>化學</dt>
 						    <dd>
 						    	<div class="tinycarousel">
 							    	<a href="#" class="buttons prev">&#9650;</a>
@@ -332,7 +333,7 @@
 								    </ul>
 							    </div>
 						    </dd>
-						    <dt>Physics</dt>
+						    <dt>物理學</dt>
 						    <dd>
 						    	<div class="tinycarousel">
 							    	<a href="#" class="buttons prev">&#9650;</a>
@@ -367,16 +368,16 @@
 			
 			<div class="showcase">
 				<a id="wiseAdvantage" href="/webapp/pages/wise-advantage.html" class="panelSection">
-					<div class="panelHead"><span>The WISE Advantage</span><span class="panelLink">+</span></div>
+					<div class="panelHead"><span>WISE優勢</span><span class="panelLink">+</span></div>
 					<div class="panelContent"><img src="/webapp/themes/tels/default/images/home/wise-in-classroom.png" alt="WISE in Classroom" /></div>
 				</a>
 				<a id="wiseInAction" href="/webapp/pages/wise-in-action.html" class="panelSection">
-					<div class="panelHead"><span>WISE In Action</span><span class="panelLink">+</span></div>
+					<div class="panelHead"><span>行動中的WISE</span><span class="panelLink">+</span></div>
 					<div class="panelContent"><img src="/webapp/themes/tels/default/images/home/wise-teaching.png" alt="WISE Students & Teacher" /></div>
 				</a>
 				<a id="researchTech" href="/webapp/pages/research-tech.html" class="panelSection">
-					<div class="panelHead"><span>Research & Technology</span><span class="panelLink">+</span></div>
-					<div class="panelContent"><img src="/webapp/themes/tels/default/images/home/wise-research.png" alt="WISE Research" /></div>
+					<div class="panelHead"><span>研究與科技</span><span class="panelLink">+</span></div>
+					<div class="panelContent"><img src="/webapp/themes/tels/default/images/home/wise-research.jpg" alt="WISE Research" /></div>
 				</a>
 				<div style="clear:both;"></div>
 			</div>
@@ -385,7 +386,7 @@
 				<div id="telsLink"><a href="http://telscenter.org" target="_blank"><img src="/webapp/themes/tels/default/images/home/tels.png"/></a></div>
 				<div id="telsLinkLabel">Powered by the TELS Community</div>
 				<div id="openSourceHeader" class="feature">
-					<span class="featureContent">WISE Open Source Partnerships</span>
+					<span class="featureContent">WISE開放原始碼夥伴</span>
 				</div>
 				<div id="openSourceContent">WISE software is free to use and open source. Visit <a href="http://wise4.org" target="_blank">http://wise4.org</a> to learn about partnership opportunities.</div>
 			</div>
