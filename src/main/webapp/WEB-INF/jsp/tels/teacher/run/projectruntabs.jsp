@@ -310,12 +310,12 @@
 					</table>
 				</div>
 			</c:when>
-		<c:otherwise>
+		<c:otherwise> <!-- 未有課程run之教師登入頁面資訊 Richard 2012/12/9-->
 			<p class="info"><spring:message code="teacher.run.myprojectruns.52"/> <a href="/webapp/teacher/projects/telsprojectlibrary.html">
 				<spring:message code="teacher.run.myprojectruns.52A"/></a> <spring:message code="teacher.run.myprojectruns.52B"/> 
 				<a href="/webapp/teacher/projects/customized/index.html"> <spring:message code="teacher.run.myprojectruns.52C"/> 
 				</a> <spring:message code="teacher.run.myprojectruns.52D"/>	<a href="/webapp/author/authorproject.html">
-				<spring:message code="teacher.run.myprojectruns.52E"/></a>.</p>
+				<spring:message code="teacher.run.myprojectruns.52E"/></a></p>
 		</c:otherwise>
 	</c:choose>
 	</div><!-- end current runs tab -->

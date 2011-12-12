@@ -1,5 +1,5 @@
 <%@ include file="../include.jsp"%>
-
+<%@ page contentType="text/html;charset=UTF-8"%>
    
     <!-- $Id$ -->
     <!--
@@ -59,7 +59,7 @@ function checkIfLegalAcknowledged (form, id) {
 		<div id="pageContent">
 			
 			<div class="infoContent">
-				<div class="panelHeader">Update My Account Information</div>
+				<div class="panelHeader"><spring:message code="teacher.registerteacher.38"/></div>
 				<div class="infoContentBox">
 					<div><spring:message code="teacher.registerteacher.29"/> <spring:message code="teacher.registerteacher.30"/></div>
 
@@ -89,7 +89,7 @@ function checkIfLegalAcknowledged (form, id) {
 							<dd><form:input disabled="true" path="userDetails.lastname" id="teacherLastName" size="25" maxlength="25" tabindex="2"/> <span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span> </dd>
 						    
 						    <dt><label for="displayname" id="displayname"><spring:message code="signup.displayname"/></label></dt>
-						    <dd><form:input path="userDetails.displayname" id="teacherDisplayName" size="25" maxlength="40" tabindex="3"/><br/><span style="font-size:.7em;">(Name as it will appear to students)</span></dd>
+						    <dd><form:input path="userDetails.displayname" id="teacherDisplayName" size="25" maxlength="40" tabindex="3"/><br/><span style="font-size:.7em;">(<spring:message code="teacher.registerteacher.39"/>)</span></dd>
 						   
 						            
 						    <dt><label for="emailAddress" id="emailAddress1"><spring:message code="signup.emailAddress" /></label></dt>
@@ -98,7 +98,7 @@ function checkIfLegalAcknowledged (form, id) {
 						    <dt><label for="city" id="city1"><spring:message code="signup.city" /></label> </dt>
 							<dd><form:input path="userDetails.city" id="teacherCity" size="25" maxlength="25" tabindex="5"/>
 						    <span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span>  </dd>
-						           
+						    <!-- modifed by Richard 2100/12/18       
 						    <dt><label for="state" id="state1" ><spring:message code="signup.state" /></label> </dt>
 							<dd><form:input path="userDetails.state" id="teacherState" size="25" maxlength="25" tabindex="6"/>
 						    	<span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span>  
@@ -107,7 +107,7 @@ function checkIfLegalAcknowledged (form, id) {
 									new Ajax.Autocompleter('state', 'autocomplete_choices_state', 'states.html', {paramName: 'sofar'}); 	   		
 								</script>  
 						    </dd>
-						                
+						    -->            
 						    <dt><label for="country" id="country1"><spring:message code="signup.country" /></label></dt>
 							<dd><form:input path="userDetails.country" id="teacherCountry" size="25" maxlength="25" tabindex="7"/> 
 						    <span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span> 
@@ -196,7 +196,7 @@ function checkIfLegalAcknowledged (form, id) {
 						       
 						      </dl>
 						      
-						      <div><input type="submit" value="Save Changes"/></div>
+						      <div><input type="submit" value='<spring:message code="teacher.registerteacher.40"/>'/></div>
 							  <div><a href="updatemyaccount.html"><spring:message code="teacher.registerteacher.35"/></a></div>
 						           
 						</form:form>

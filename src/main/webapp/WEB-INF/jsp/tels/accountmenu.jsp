@@ -3,6 +3,7 @@
 <link rel="stylesheet" type="text/css" href="<spring:theme code="superfishstylesheet"/>" media="screen">
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
+
 <script type="text/javascript">
 	
 	//$.cookie("lastLoginTime",lastLogin,{path:"/"});
@@ -50,7 +51,7 @@
 	
 	<div id="accountMenu" class="guest">
 		<ul class="welcome-menu">
-			<li><spring:message code="header.welcome"/> <spring:message code="header.signup1"/> <spring:message code="header.signup2"/> <spring:message code="header.signup3"/></li>
+			<li><spring:message code="header.welcome"/></li>
 		</ul>
 		<a id="createAccountButton" href="signup.html" class="wisebutton signup" title="<spring:message code="createaccounttitle"/>"><spring:message code="createaccountlink"/></a>
 	</div>
@@ -60,7 +61,7 @@
 	<div id="userInfoBlock" class="userInfo">
 		<a id="signOut" class="wisebutton minibutton" href="<c:url value="/j_spring_security_logout"/>" title="<spring:message code="log.out"/>"><spring:message code="log.out"/></a>
 		<div id="userName">
-			<span>Welcome, <sec:authentication property="principal.firstname" /> <sec:authentication property="principal.lastname" />!</span>
+			<span><spring:message code="welcome" /><sec:authentication property="principal.firstname" /> <sec:authentication property="principal.lastname" />!</span>
 		</div>
 		<div<sec:authorize ifAllGranted="ROLE_STUDENT"> style="margin-top:1.25em;"</sec:authorize>>
 			<spring:message code="teacher.index.4" /> <span id="lastLogin"></span>

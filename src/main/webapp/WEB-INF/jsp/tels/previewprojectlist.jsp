@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <!-- $Id$ -->
 
@@ -260,7 +261,7 @@ $(document).ready(function() {
 															</c:if>
 														</c:forEach>
 														<a class="projectTitle" id="project_${project.id}">${project.name}</a>
-														<span>(<spring:message code="teacher.manage.library.4" /> ${project.id})</span>
+														<span>(ID: ${project.id})</span>
 													</div>
 													<div class="projectTools">
 														<ul class="actions">
@@ -301,7 +302,7 @@ $(document).ready(function() {
 															<c:if test="${project.metadata.compTime != null && project.metadata.compTime != ''}"><p><span style="font-weight:bold;"><spring:message code="teacher.manage.library.15" /></span> ${project.metadata.compTime}</p></c:if>
 															<p><span style="font-weight:bold;"><spring:message code="teacher.manage.library.19" /></span> <a href="/webapp/contactwiseproject.html?projectId=${project.id}"><spring:message code="teacher.manage.library.16" /></a></p>
 															<c:if test="${project.metadata.author != null && project.metadata.author != ''}"><p><span style="font-weight:bold;"><spring:message code="teacher.manage.library.17" /></span> ${project.metadata.author}</p></c:if>
-															<c:set var="lastEdited" value="${project.metadata.lastEdited}" />
+															<c:set var="lastEdited" value="${project.metadata.lastEdited}" />															
 															<c:if test="${lastEdited == null || lastEdited == ''}">
 																<c:set var="lastEdited" value="${project.dateCreated}" />
 															</c:if>
@@ -310,8 +311,8 @@ $(document).ready(function() {
 																(project.metadata.standards != null && project.metadata.standards != '')}">
 																<div class="viewLesson"><a class="viewLesson" id="viewLesson_${project.id}" title="<spring:message code="teacher.manage.library.23" />"><spring:message code="teacher.manage.library.24" /></a></div>
 																<div class="lessonPlan" id="lessonPlan_${project.id}" title="<spring:message code="teacher.manage.library.24" />">
-																	<div class="panelHeader">${project.name} (<spring:message code="teacher.manage.library.4" /> ${project.id})
-																		<span style="float:right;"><a class="printLesson" id="printLesson_${project.id}">Print</a></span>
+																	<div class="panelHeader">${project.name} (ID:${project.id})
+																		<span style="float:right;"><a class="printLesson" id="printLesson_${project.id}"><spring:message code="teacher.manage.library.4" /></a></span>
 																	</div>
 																	<c:if test="${project.metadata.lessonPlan != null && project.metadata.lessonPlan != ''}">
 																		<div class="basicInfo sectionContent">

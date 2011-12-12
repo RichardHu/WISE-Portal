@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <!-- $Id: header.jsp 368 2007-05-05 01:41:18Z mattfish $ -->
 
@@ -221,14 +222,14 @@ $(document).ready(function(){
 							<td><form:input path="userDetails.city" id="teacherCity" size="25" maxlength="50" tabindex="4"/>
 					    		<span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span></td>
 					    </tr>
-					           
+					    <!--      
 					    <tr>
 					    	<td><label for="state" id="state1" ><spring:message code="signup.state" /></label> </td>
 							<td><form:input path="userDetails.state" id="teacherState" size="25" maxlength="50" tabindex="5"/>
 						    	<span class="hint"><spring:message code="teacher.registerteacher.4"/><span class="hint-pointer"></span></span>  
-						    	<!-- <div id="autocomplete_choices_state" class="autocomplete" ></div></td>  -->
+						    	<!-- <div id="autocomplete_choices_state" class="autocomplete" ></div></td>  
 						</tr>
-					                
+					    -->            
 					    <tr>
 					    	<td><label for="country" id="country1"><spring:message code="signup.country" /></label></td>
 							<td><form:input path="userDetails.country" id="teacherCountry" size="25" maxlength="50" tabindex="6"/> 
