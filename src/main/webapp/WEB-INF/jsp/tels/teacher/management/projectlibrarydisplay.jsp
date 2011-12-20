@@ -8,6 +8,7 @@
 
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <%@ page buffer="100kb" %>
 
@@ -98,7 +99,9 @@
 					$('#copyDialog').html($copyingDialog);
 					$('ui-dialog-titlebar-close',$(this).parent()).hide();
 					$('button',$(this).parent()).hide().unbind();
-					var escapedName = escape(name);
+					//var escapedName = escape(name); 
+					//寫入資料庫編碼轉為UTF-8；modified by Richard 2011/12/19
+					var escapedName = encodeURIComponent(name);
 					if(type=='LD'){
 						$.ajax({
 							type: 'post',
@@ -822,7 +825,7 @@
 	<thead class="tableHeaderMain">
 		<tr>
 			<th><spring:message code="teacher.manage.library.1" /> (${fn:length(ownedProjectsList) + fn:length(sharedProjectsList) + fn:length(libraryProjectsList)})</th>
-			<th>root project</th>
+			<th>root project</th> 
 			<th>source</th>
 			<th>subject</th>
 			<th>grade level</th>
@@ -894,8 +897,8 @@
 												</li>
 												<sec:accesscontrollist domainObject="${project}" hasPermission="2,16">
 													<li><a id="shareProject_${project.id}" class="shareProject" title="<spring:message code="teacher.manage.library.7" /> ${project.name} (<spring:message code="teacher.manage.library.5" /> ${project.id})"><img class="icon" alt="share" src="/webapp/themes/tels/default/images/icons/teal/agent.png" /><span><spring:message code="teacher.manage.library.8" /></span></a>&nbsp;|</li>
-												</sec:accesscontrollist>
-												<li><a title="<spring:message code="teacher.manage.library.9a" />" onclick="copy('${project.id}','${project.projectType}','${projectNameEscaped}','${filenameMap[project.id]}','${urlMap[project.id]}')" ><img class="icon" alt="copy" src="/webapp/themes/tels/default/images/icons/teal/copy-item.png" /><span><spring:message code="teacher.manage.library.9" /></span></a>&nbsp;|</li>
+												</sec:accesscontrollist>								
+												<li><a title="<spring:message code="teacher.manage.library.9a" />" onclick="copy('${project.id}','${project.projectType}','${projectNameEscaped}','${filenameMap[project.id]}','${urlMap[project.id]}')" ><img class="icon" alt="copy" src="/webapp/themes/tels/default/images/icons/teal/copy-item.png" /><span><spring:message code="teacher.manage.library.9" /></span></a>&nbsp;|</li>											
 												<sec:accesscontrollist domainObject="${project}" hasPermission="2,16">
 													<li><a title="<spring:message code="teacher.manage.library.10a" />" href="/webapp/author/authorproject.html?projectId=${project.id}"><img class="icon" alt="edit" src="/webapp/themes/tels/default/images/icons/teal/edit.png" /><span><spring:message code="teacher.manage.library.10" /></span></a>&nbsp;|</li>
 												</sec:accesscontrollist>
