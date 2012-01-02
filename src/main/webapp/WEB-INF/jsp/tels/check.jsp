@@ -1,4 +1,5 @@
 <%@ include file="include.jsp"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
 
 <!-- $Id: signup.jsp 323 2007-04-21 18:08:49Z hiroki $ -->
 
@@ -37,19 +38,19 @@
 		<div id="pageContent">
 			
 			<div class="contentPanel">
-				<div class="panelHeader">WISE4 System Check</div>
+				<div class="panelHeader">WISE4系統確認</div>
 				<div class="panelContent">
 
-					<div class="sectionHead" style="padding-top:0;">Browser Compatibility Check</div>
+					<div class="sectionHead" style="padding-top:0;">瀏覽器相容性確認</div>
 					<div class="sectionContent"> 
 						<div><table>
 							<tr>
-								<th>Resource</th>
-								<th>Status</th>
-								<th>Required Version</th>
-								<th>Your Version</th>
-								<th>Requirement Satisfied</th>
-								<th>Additional Info</th>
+								<th>資源</th>
+								<th>狀態</th>
+								<th>版本需求</th>
+								<th>您的版本</th>
+								<th>需求滿足性</th>
+								<th>附加資訊</th>
 							</tr>
 							<noscript>
 								<tr>
@@ -58,7 +59,7 @@
 								<td>Enabled</td>
 								<td>Disabled</td>
 								<td><img src='./themes/tels/default/images/error_16.gif' /></td>
-								<td><a href='https://www.google.com/support/adsense/bin/answer.py?answer=12654'>How to enable Javascript</a></td>
+								<td><a href='https://www.google.com/support/adsense/bin/answer.py?answer=12654'>如何啟用Javascript</a></td>
 								</tr>
 							</noscript>
 							<tr>
@@ -103,145 +104,147 @@
 							</tr>
 						</table></div>
 						<noscript>
-						<div>Browser Compatibility Check Result: You can not run WISE4</div>
-						<div class='checkCompatibilityWarning'>Warning: you must enable Javascript in order to run Wise 4, please click the "How to enable Javascript" link to find out how to enable Javascript.</div></noscript>
+						<div>瀏覽器相容性確認結果：您不能執行WISE4</div>
+						<div class='checkCompatibilityWarning'>警告：您必須啟用Javascript以順利執行WISE4，請點選"如何啟用Javascript"的連結以找到啟用方法</div></noscript>
 						<div id='compatibilityCheckResult' style="font-weight:bold;"></div>
 						<div id='compatibilityCheckMessages'></div>
 					</div>
 					
-					<div id='contentFilter' class="sectionHead" style="padding-top:0;">Network Compatibility Check (Firewall/Proxy)</div>
+					<div id='contentFilter' class="sectionHead" style="padding-top:0;">網路相容性確認 (防火牆/代理伺服器)</div>
 					<div class="sectionContent"> 
-						<div>You should not be behind firewall/proxy if possible when running WISE projects.  Parts or all of the WISE may not load 
-		     depending on your school's firewall settings. This section checks if you are
-			 restricted from accessing certain resources on the WISE server. 
-			 If you see any X's below, WISE may not function properly. Please talk to your server administrator.</div>
+						<div>當執行WISE專案時防火牆/代理伺服器可能會造成執行的問題。WISE並無法自動改變您所在學校防火牆的設定。這部分的確認方法為：如果您在WISE伺服器存取一些資源時受到限制，或者WISE無法正常運作，請聯絡您的伺服器管理員。
+						</div>
 						<div id='contentFilterMessageSwf'>
-							<span>Can Retrieve Flash objects (.swf):</span><span id='contentFilterSwfRequirementSatisfied'>checking...</span><br/><br/>
-							<span>Can Retrieve Java archives (.jar):</span><span id='contentFilterJarRequirementSatisfied'>checking...</span>
+							<span>可以存取Flash物件 (.swf):</span><span id='contentFilterSwfRequirementSatisfied'>確認中...</span><br/><br/>
+							<span>可以存取Java檔案 (.jar):</span><span id='contentFilterJarRequirementSatisfied'>確認中...</span>
 						</div>
 					</div>
 					
-					<div id='contentFilter' class="sectionHead" style="padding-top:0;">Browser Recommendation</div>
+					<div id='contentFilter' class="sectionHead" style="padding-top:0;">瀏覽器建議</div>
 					<div class="sectionContent"> 
-						<div>Use this section to choose which browser to use to run WISE.</div>
+						<div>選擇瀏覽器以執行WISE</div>
 						<div><table>
 							<tr>
-								<th>Browser, Version, Operating System</th>
-								<th>Known Issues</th>
-								<th>Recommendation Level</th>
+								<th>瀏覽器、版本、作業系統</th>
+								<th>已知問題</th>
+								<th>建議度</th>
 							</tr>
 							<tr>
 								<td>Firefox 3.5/3.6 on OSX and Windows</td>
-								<td>none</td>
-								<td>Strongly Recommended</td>
+								<td>無</td>
+								<td>強烈建議</td>
 							</tr>
 							<tr>
 								<td>Chrome on OSX and OSX and Windows</td>
-								<td>none</td>
-								<td>Recommended</td>
+								<td>無</td>
+								<td>建議</td>
 							</tr>
 							<tr>
 								<td>Safari 4.0+ on OSX</td>
-								<td>none</td>
-								<td>Recommended</td>
+								<td>無</td>
+								<td>建議</td>
 							</tr>
 							<tr>
 								<td>IE 7,8 on Windows</td>
-								<td>Drawing and MySystem steps do not work, some usability issues in student+teacher pages</td>
-								<td>Least Recommended</td>
+								<td>Drawing 與 MySystem 步驟無法運作；教師與學生頁面的一些使用性問題</td>
+								<td>不建議</td>
 							</tr>
 							<tr>
-								<td colspan="3">Other browsers are not yet recommended</td>
+								<td colspan="3">其他瀏覽器尚未經過測試並不建議使用</td>
 							</tr>
 						</table></div>
 					</div>
 					
-					<div id='contentFilter' class="sectionHead" style="padding-top:0;">Computer System Requirements</div>
+					<div id='contentFilter' class="sectionHead" style="padding-top:0;">電腦系統需求</div>
 					<div class="sectionContent"> 
-						<div>Fully supported configuration:</div>
+						<div>完全支援的配置：</div>
 						<div>
 							<table class='confluenceTable'><tbody> 
 								<tr> 
-								<td class='confluenceTd'>Operating system</td> 
+								<td class='confluenceTd'>作業系統</td> 
 								<td class='confluenceTd'>OS X &gt;=10.5 or Windows XP/2k, Vista, 7</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>RAM</td> 
-								<td class='confluenceTd'>512MB or more</td> 
+								<td class='confluenceTd'>記憶體</td> 
+								<td class='confluenceTd'>>=512MB</td> 
 								</tr> 
 								<tr> 
 								<td class='confluenceTd'>Java</td> 
-								<td class='confluenceTd'>1.5.0 or later</td> 
+								<td class='confluenceTd'>1.5.0以上</td> 
 								</tr> 
 								<tr> 
 								<td class='confluenceTd'>Flash</td> 
-								<td class='confluenceTd'>10.0 or later</td> 
+								<td class='confluenceTd'>10.0以上</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Firewall</td> 
-								<td class='confluenceTd'>no firewall</td> 
+								<td class='confluenceTd'>防火牆</td> 
+								<td class='confluenceTd'>無防火牆</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Proxy</td> 
-								<td class='confluenceTd'>no proxy</td> 
+								<td class='confluenceTd'>代理伺服器</td> 
+								<td class='confluenceTd'>無代理伺服器</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Execution</td> 
-								<td class='confluenceTd'>User have permissions to run (<a href="http://javatechniques.com/blog/launching-java-webstart-from-the-command-line" rel="nofollow">javaws</a>)</td> 
+								<td class='confluenceTd'>執行</td> 
+								<td class='confluenceTd'>使用者允許執行 (<a href="http://javatechniques.com/blog/launching-java-webstart-from-the-command-line" rel="nofollow">javaws</a>)</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Storage</td> 
-								<td class='confluenceTd'>Users can write to system disk</td> 
-								</tr> 
-								<tr> 
+								<td class='confluenceTd'>儲存</td> 
+								<td class='confluenceTd'>使用者允許寫入系統磁碟</td> 
+								</tr>
+                                <!--								
+								<tr> 								
 								<td class='confluenceTd'>Peristence</td> 
 								<td class='confluenceTd'>Writes to disk persist all week</td> 
 								</tr> 
+								-->
 								</tbody>
 							</table>
 						</div>
-						<div style="margin-top:1em;">Partially supported configuration:</div>
+						<div style="margin-top:1em;">部分支援的配置：</div>
 						<div>
 							<table class='confluenceTable'><tbody> 
 								<tr> 
-								<td class='confluenceTd'>Operating system</td> 
+								<td class='confluenceTd'>作業系統</td> 
 								<td class='confluenceTd'>OS X &gt;=10.4 or Windows XP,Vista, 7</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>RAM</td> 
-								<td class='confluenceTd'>256MB or more</td> 
+								<td class='confluenceTd'>記憶體</td> 
+								<td class='confluenceTd'>>=256MB</td> 
 								</tr> 
 								<tr> 
 								<td class='confluenceTd'>Java</td> 
-								<td class='confluenceTd'>1.5.0 or later</td> 
+								<td class='confluenceTd'>1.5.0以上</td> 
 								</tr> 
 								<tr> 
 								<td class='confluenceTd'>Flash</td> 
-								<td class='confluenceTd'>10.0 or later</td> 
+								<td class='confluenceTd'>10.0以上</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Firewall</td> 
-								<td class='confluenceTd'>no firewall</td> 
+								<td class='confluenceTd'>防火牆</td> 
+								<td class='confluenceTd'>無防火牆</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Proxy</td> 
-								<td class='confluenceTd'>some proxies okay</td> 
+								<td class='confluenceTd'>代理伺服器</td> 
+								<td class='confluenceTd'>部分代理伺服器</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Execution</td> 
-								<td class='confluenceTd'>User have permissions to run javaws</td> 
+								<td class='confluenceTd'>執行</td> 
+								<td class='confluenceTd'>使用者允許執行javaws</td> 
 								</tr> 
 								<tr> 
-								<td class='confluenceTd'>Storage</td> 
-								<td class='confluenceTd'>Users can write to system disk</td> 
+								<td class='confluenceTd'>儲存</td> 
+								<td class='confluenceTd'>使用者允許寫入系統磁碟</td> 
 								</tr> 
 								<tr> 
+								<!--
 								<td class='confluenceTd'>Peristence</td> 
 								<td class='confluenceTd'>without persistence, downloads take place each session</td> 
+								-->
 								</tr> 
 							</tbody></table> 
 						</div>
-						<div style="margin-top:1em;"><a href="pages/schoolIT.html">Resource for school technicians</a></div>
+						<div style="margin-top:1em;"><a href="pages/schoolIT.html">學校技術人員資源</a></div>
 					</div>
 				</div>
 			</div>

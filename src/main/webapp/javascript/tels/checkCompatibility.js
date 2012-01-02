@@ -1,4 +1,4 @@
-/**
+﻿/**
  * This file contains functions that check if the client has
  * the necessary resource requirements to run wise4 projects.
  */
@@ -95,9 +95,9 @@ function checkCompatibility(specificRequirements) {
 	recommendedResources = checkJava(combinedRequirements.requiredJavaVersion) && recommendedResources;
 	
 	if(requiredResources) {
-		document.getElementById('compatibilityCheckResult').innerHTML = '<br><b>Compatibility Check Result: You can run Wise 4</b>';
+		document.getElementById('compatibilityCheckResult').innerHTML = '<br><b>相容性確認結果：您可以執行Wise 4</b>';
 	} else {
-		document.getElementById('compatibilityCheckResult').innerHTML = '<br><b>Compatibility Check Result: You can not run Wise 4</b>';
+		document.getElementById('compatibilityCheckResult').innerHTML = '<br><b>相容性確認結果：您不能執行Wise 4</b>';
 	}
 	
 	checkContentFiltering();
@@ -166,11 +166,11 @@ function getOS() {
  */
 function checkJavascript() {
 	document.getElementById('javascriptResource').innerHTML = 'Javascript';
-	document.getElementById('javascriptStatus').innerHTML = 'Required';
-	document.getElementById('javascriptRequiredVersion').innerHTML = 'Enabled';
-	document.getElementById('javascriptYourVersion').innerHTML = 'Enabled';
+	document.getElementById('javascriptStatus').innerHTML = '必須';
+	document.getElementById('javascriptRequiredVersion').innerHTML = '已啟動';
+	document.getElementById('javascriptYourVersion').innerHTML = '已啟動';
 	document.getElementById('javascriptRequirementSatisfied').innerHTML = "<img src='./themes/tels/default/images/check_16.gif' />";
-	document.getElementById('javascriptAdditionalInfo').innerHTML = "<a href='https://www.google.com/support/adsense/bin/answer.py?answer=12654'>How to enable Javascript</a>";
+	document.getElementById('javascriptAdditionalInfo').innerHTML = "<a href='https://www.google.com/support/adsense/bin/answer.py?answer=12654'>如何啟動Javascript</a>";
 
 	return true;
 }
@@ -225,7 +225,7 @@ function checkBrowser(requirements) {
  * @return a string specifying the requirement status
  */
 function getBrowserStatus() {
-	return "Required";
+	return "必須";
 }
 
 /**
@@ -326,7 +326,7 @@ function getBrowserVersion() {
  * @return an a element containing a link to the firefox page
  */
 function getBrowserAdditionalInfo() {
-	return "<a href='http://www.mozilla.com/firefox/'>Upgrade Firefox</a>";
+	return "<a href='http://www.mozilla.com/firefox/'>更新Firefox</a>";
 }
 
 /**
@@ -368,7 +368,7 @@ function checkQuickTime(requiredQuickTimeVersion) {
  * @return a string specifying the requirement status
  */
 function getQuickTimeStatus() {
-	return "Recommended";
+	return "建議";
 }
 
 /**
@@ -430,7 +430,7 @@ function getQuickTimeVersion() {
  * @return an a element containing a link to the quicktime page
  */
 function getQuickTimeAdditionalInfo() {
-	return "<a href='http://www.apple.com/quicktime/download/'>Upgrade QuickTime</a>";
+	return "<a href='http://www.apple.com/quicktime/download/'>更新QuickTime</a>";
 }
 
 /**
@@ -470,7 +470,7 @@ function checkJava(requiredJavaVersion) {
  * @return a string specifying the requirement status
  */
 function getJavaStatus() {
-	return "Recommended";
+	return "建議";
 }
 
 /**
@@ -537,7 +537,7 @@ function checkJavaVersion(requiredJavaVersion) {
  * @return an a element containing a link to the java page
  */
 function getJavaAdditionalInfo() {
-	return "<a href='http://www.java.com/download/'>Upgrade Java</a>";
+	return "<a href='http://www.java.com/download/'>更新Java</a>";
 }
 
 /**
@@ -577,7 +577,7 @@ function checkFlash(requiredFlashVersion) {
  * @return a string specifying the requirement status
  */
 function getFlashStatus() {
-	return "Recommended";
+	return "建議";
 }
 
 /**
@@ -626,7 +626,7 @@ function checkFlashVersion(requiredFlashVersion) {
  * @return an a element containing a link to the flash page
  */
 function getFlashAdditionalInfo() {
-	return "<a href='http://get.adobe.com/flashplayer/'>Upgrade Flash</a>";
+	return "<a href='http://get.adobe.com/flashplayer/'>更新Flash</a>";
 }
 
 //from Macromedia's Flash detection kit
