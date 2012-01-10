@@ -265,7 +265,7 @@ $(document).ready(function() {
 								 	</td>
 								</tr>
 								<tr>
-									<td class="rowLabel">Access Code</td>
+									<td class="rowLabel"><spring:message code="student.index.22a"/></td>
 									<td>${studentRunInfo.run.runcode}<!-- -${studentRunInfo.group.name} --></td>
 							  	</tr>	
 								<tr>
@@ -285,7 +285,7 @@ $(document).ready(function() {
 									</tr>
 								<tr>
 									<td class="rowLabel"><spring:message code="student.index.24"/></td>
-									<td >${studentRunInfo.group.name} <span id="periodMessage">(to change period or team ask your teacher for help)</span></td>
+									<td >${studentRunInfo.group.name} <span id="periodMessage"><spring:message code="student.index.24a"/></span></td>
 							  	
 							  	</tr>
 								<tr>

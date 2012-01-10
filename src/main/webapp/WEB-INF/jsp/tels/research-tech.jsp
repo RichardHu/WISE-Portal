@@ -57,10 +57,10 @@
 						<img src="/webapp/themes/tels/default/images/features/wise-group.png" alt="wise retreat group" />
 						<div class="featureContentHeader">研究目標</div>
 						<div class="featureContent">
-<ol><li><span style="font-weight:bold;">課程發展：</span><br>教師可透過建立與註解新的學習環境來客製化課程，科學現象的電腦視覺表徵增加了這些學習環境的豐富性；在學校對不同的學生族群測試這些學習環境。
+<ol><li><span style="font-weight:bold;">課程發展：</span><br>教師可透過科學現象的電腦視覺表徵以豐富新學習環境的建構與客製化；在學校對不同的學生族群測試這些學習環境。
 </li>
 <li><span style="font-weight:bold;">專業發展：</span><br>增加能完全利用科技促進科學教育之教師與管理者的數量及類型。</li>
-<li><span style="font-weight:bold;">研究生教育：</span><br>擴展研究生的課程以培養科學教育科技、課程發展、專業發展以及教育政策的領導者與專家。
+<li><span style="font-weight:bold;">研究所教育：</span><br>擴展研究生的課程以培養科學教育科技、課程發展、專業發展以及教育政策的領導者與專家。
 </li>
 <li><span style="font-weight:bold;">科學教育研究：</span><br>增加研究的量與質以調查有效的科技如何促進科學學習。</li>
 <li><span style="font-weight:bold;">有效運用科技：</span><br>組織夥伴關係致力於提高科技促進科學教育；成立開放原始碼社群設計經過改進的教學資源。
@@ -105,7 +105,7 @@
 						<img src="/webapp/themes/tels/default/images/features/wise4-org.png" alt="wise4.org" />
 						<div class="featureContentHeader">WISE開發社群</div>
 						<div class="featureContent">
-							<p>我們正在發展一個以WISE為中心，活躍與動態的軟體開發者社群。客製化的WISE伺服器已經建置在華盛頓大學、維吉尼亞州立大學、多倫多大學、臺灣師範大學與臺灣高雄師範大學。一些採用者已經在當地的課堂實施WISE專案而且蒐集研究資料(華盛頓大學)。WISE採用者幫助我們將WISE翻譯成繁體中文，以及主動地建立新的步驟類型和學習活動。關於和WISE合作以及如何安裝軟體在你的伺服器等相關資訊，請瀏覽我們的開發者網站(<a href="http://wise4.org" target="_blank">http://wise4.org</a>)並加入我們的<a href="https://groups.google.com/forum/?pli=1#!forum/wise4-dev" target="_blank">WISE4開發者論壇</a>。</p>
+							<p>我們正在發展一個以WISE為中心，活躍與動態的軟體開發者社群。客製化的WISE伺服器已經建置在華盛頓大學、維吉尼亞州立大學、多倫多大學、臺灣師範大學與臺灣高雄師範大學。一些採用者已經在當地的課堂實施WISE專題而且蒐集研究資料(華盛頓大學)。WISE採用者幫助我們將WISE翻譯成繁體中文，以及主動地建立新的步驟類型和學習活動。關於和WISE合作以及如何安裝軟體在你的伺服器等相關資訊，請瀏覽我們的開發者網站(<a href="http://wise4.org" target="_blank">http://wise4.org</a>)並加入我們的<a href="https://groups.google.com/forum/?pli=1#!forum/wise4-dev" target="_blank">WISE4開發者論壇</a>。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>

@@ -56,10 +56,10 @@
 						<div class="featureContent">
 							<p class="featureHeader">管理、掌握與促進</p>
 							<ul>
-								<li><span style="font-weight:bold;">過程的掌握：</span><br>用Classroom Monitor可以即時觀看學生線上實作情形。這個工具讓教師很快地評估每個學生小組的進行過程，並決定是否有需要介入個別學生或班級。</li>
+								<li><span style="font-weight:bold;">過程的掌握：</span><br>用課堂監控可以即時觀看學生線上實作情形。這個工具讓教師很快地評估每個學習小組的進行過程，並決定是否有需要介入個別學生或班級。</li>
 								<li><span style="font-weight:bold;">步驟完成呈現：</span><br>可觀看學生在WISE課程中特殊步驟和活動的完成度百分比。這個特性提供了快速而簡易的方式，去確認透過WISE課程課堂是如何進行的。</li>
 								<li><span style="font-weight:bold;">停留畫面：</span><br>停留功能在學生電腦同步實施，這個特性可以用來讓學生集中注意力於特殊的活動，如課堂討論或者控制學生WISE課程的學習步調。</li>
-								<li><span style="font-weight:bold;">學生實作標記：</span><br>選取學生整個課堂上分享、探討或評論的特殊回應。謹慎地選取學生的例子可以當作一個有效的基礎，用來檢視主要的想法，或者對評價實作產生準則。</li>
+								<li><span style="font-weight:bold;">學生實作標記：</span><br>選取學生整個課堂上分享、探討或評論的特殊回應。謹慎地選取學生的例子可以當作一個有效的基礎，用來檢視主要的想法，或者對評論實作產生準則。</li>
 							</ul>
 						</div>
 						<div style="clear:both;"></div>
@@ -69,7 +69,7 @@
 						<div class="featureContent">
 							<p class="featureHeader">評分 & 回饋</p>
 							<ul>
-								<li><span style="font-weight:bold;">評判學生實作 & 提供回饋：</span><br>很容易觀看學生的實作並評分以及下評語，學生並可檢視與回應。教師可以依據課程步驟或者學生小組團隊來評判學生的實作。 </li>
+								<li><span style="font-weight:bold;">學生實作評分 & 提供回饋：</span><br>很容易觀看學生的實作並評分以及下評語，學生並可檢視與回應。教師可以依據課程步驟或學生分組為學生的實作評分。 </li>
 								<li><span style="font-weight:bold;">預先的評語：</span><br>編輯與使用平常對於學生實作會用到的回饋評語模板。教師可以建立預先的評語讓回饋上百位學生的回應過程變得流暢。</li>
 								<li><span style="font-weight:bold;">自動評分評量：</span><br>使用wise自動評分規則為學生評分。這個新發展的特性將輔助教師快速而正確地評判學生在重要課程步驟的實作情形。</li>
 							</ul>
@@ -81,8 +81,8 @@
 						<div class="featureContent">
 							<p class="featureHeader">客製化課程</p>
 							<ul>
-								<li><span style="font-weight:bold;">WISE編輯工具：</span><br>建立客製化的課程以符合特殊的課堂背景。WISE用設計課程頁面與嵌入式評量的方式提供了彈性與創造性。課程的編輯者可以修改現有的WISE課程以符合特殊的需求，甚至建立任何主題的全新課程。</li>
-								<li><span style="font-weight:bold;">分享課程：</span><br>提供其他WISE教師取得課程。WISE使用者可以分享課程給想要在課堂上實施或者想客製化修改的教師。透過分享課程，課程編輯者可以合作編輯並且精緻化課程單元。
+								<li><span style="font-weight:bold;">WISE編輯工具：</span><br>建立客製化的課程以符合特殊的課堂背景。WISE用設計課程頁面與嵌入式評量的方式提供了彈性與創造性。課程的編輯者可以修改現有的WISE專題以符合特殊的需求，甚至建立任何主題的全新專題。</li>
+								<li><span style="font-weight:bold;">分享課程：</span><br>提供其他WISE教師取得課程。WISE使用者可以分享專題給想要在課堂上實施或者想客製化修改的教師。透過分享專題，課程編輯者可以合作編輯並且精緻化WISE單元。
 							</ul>
 						</div>
 						<div style="clear:both;"></div>

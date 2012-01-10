@@ -1,4 +1,4 @@
-<%@ include file="include.jsp"%>
+﻿<%@ include file="include.jsp"%>
 
 <!DOCTYPE html>
 <html xml:lang="en" lang="en">
@@ -90,7 +90,7 @@ function setup() {
 <body style="background:#FFFFFF" onload="setup();">
 <div class="dialogContent">
 	<div class="dialogSection">
-		<div class="sectionHead">Instructions</div>
+		<div class="sectionHead">說明</div>
 		<ol id="addProjectInstructions">
 			<li><spring:message code="student.addproject.1" /></li>
 			<li><spring:message code="student.addproject.2" /></li>
@@ -122,7 +122,7 @@ function setup() {
 		      
 		      <form:hidden path="projectcode" id="projectcode"/>
 		     
-		    <div><input type="button" onclick="save();" value="Add Project" /></div>
+		    <div><input type="button" onclick="save();" value="新增專題" /></div>
 			</form:form>
 		</div>
 	</div>

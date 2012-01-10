@@ -146,7 +146,7 @@
 							</tr>
 							<tr>
 								<td>IE 7,8 on Windows</td>
-								<td>Drawing 與 MySystem 步驟無法運作；教師與學生頁面的一些使用性問題</td>
+								<td>手繪圖與系統圖步驟無法運作；教師與學生頁面的一些使用性問題</td>
 								<td>不建議</td>
 							</tr>
 							<tr>

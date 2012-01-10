@@ -41,7 +41,7 @@
 						<img src="/webapp/themes/tels/default/images/features/teacher-profile.png" alt="teacher profile" />
 						<div class="featureContentHeader">教師輪廓(中學科學，加州)</div>
 						<div class="featureContent">
-							<p>我七年前開始使用WISE。我總是熱切希望有新的方式幫助我的學生理解困難的科學概念。我持續新增WISE課程到我的課程中，而基於我認為我的學生如何對科學概念有感覺，我也客製化已經教了幾年的課程。</p>
+							<p>我七年前開始使用WISE。我總是熱切希望有新的方式幫助我的學生理解困難的科學概念。我持續新增WISE專題到我的課程中，而基於我認為學生如何對科學概念有感覺，我也客製化已經教了幾年的課程。</p>
 							<p>學生喜歡一次又一次地使用這些模型。對於英語系的學習者來說是特別重要，因為他們沒有語言的障礙。這些模型和視覺化表徵幫助建立科學的連結。</p>
 							<p>我用評分工具試著去找到錯誤的理解。我發現要先給評論然後給予分數可以成功讓學生回去努力思考他們的想法。 我也使用問題讓學生在課程中回答, 所以我可以得知一段時間以來學生比較不理解的地方，這在隨之而來的一段日子裡幫助我增進我的教學，而且是在那些課程之後。</p>
 							<p>這是我第七年使用WISE而且我也持續在學習。我發現用探究來教學是困難的因為你需要更多時間與耐心。在教室中，我們的時間愈來愈少。即使有時候是比較困難的，我感覺學生在WISE探究課程中更能掌控他們的學習，也因此變得更有意義。很多我的同事也開始使用WISE。和同事有實務上的討論是很棒的。我們有一些想法關於課堂教學、評分步驟以及讓學生投入和夥伴一起實作。</p>
@@ -60,7 +60,7 @@
 						<img src="/webapp/themes/tels/default/images/features/teacher-role.png" alt="teacher's role" />
 						<div class="featureContentHeader">教師角色</div>
 						<div class="featureContent">
-							<p>教師對WISE課程的成功來說是不可或缺的。在課堂中，成功的教師以個人或小組為基礎調查學生的想法(即時)，而且一段時間就對全班講述困難的概念。此外教師使用一系列以教室為基礎的線上工具來引導與評量學習過程。</a>.</p>
+							<p>教師對WISE專題的成功來說是不可或缺的。在課堂中，成功的教師以個人或小組為基礎調查學生的想法(即時)，而且一段時間就對全班講述困難的概念。此外教師使用一系列以教室為基礎的線上工具來引導與評量學習過程。</a>.</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
@@ -76,7 +76,7 @@
 						<img src="/webapp/themes/tels/default/images/features/assessments.png" alt="wise assessments" />
 						<div class="featureContentHeader">標準校正評量</div>
 						<div class="featureContent">
-							<p>WISE課程單元包含了嵌入式的形成性評量項目以及課程前後的總成性評量項目，安排在州的內容標準中，而且已經被心理測量學家分析後證實，等同於甚至比標準的測量工具更廣泛地捕捉學生的學習傾向 (Liu, Lee, Hoftstetter, & Linn, 2008; Linn et al., 2006)。</p>
+							<p>WISE課程單元包含了嵌入式的形成性評量項目以及課程前後的總成性評量項目，而且已經被心理測量學家分析後證實，等同於甚至比標準的測量工具更廣泛地捕捉學生的學習傾向 (Liu, Lee, Hoftstetter, & Linn, 2008; Linn et al., 2006)。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
@@ -92,7 +92,7 @@
 					<div class="featuresShowcase">
 						<div class="featureContentHeader">選擇性學習脈絡</div>
 						<div class="featureContent">
-							<p>WISE課程是可客製化而且可以適應不同的學習背景和需求，而不只是傳統的教室課程。廣泛的測試引領WISE發展給予不同學習者的多樣性支持。雖然每個WISE單元是以研究發現為基礎，包含活動的嚴謹設計流程，這些活動已經模組化而且可以結合離線的活動，像是動手做的示範與實驗，能為現有的教學加值。例如，課外活動與家庭教師教全球氣候變遷時也許會想運用WISE全球氣候變遷的NetLogo模組和結合性的提示，讓學生在不同的情況下做實驗。</p>
+							<p>WISE課程是可客製化而且可以適應不同的學習背景和需求，而不只是傳統的教室課程。廣泛的測試引領WISE發展多樣性支持給予不同的學習者。雖然每個WISE單元是以研究發現為基礎，包含活動的嚴謹設計流程，這些活動已經模組化而且可以結合離線的活動，像是動手做的示範與實驗，能為現有的教學加值。例如，課外活動與家庭教師教全球氣候變遷時也許會想運用WISE全球氣候變遷的NetLogo模組和相關的提示，讓學生在不同的情況下做實驗。</p>
 						</div>
 						<div style="clear:both;"></div>
 					</div>
