@@ -1,4 +1,4 @@
-<%@ include file="../../../include.jsp"%>
+﻿<%@ include file="../../../include.jsp"%>
 
 <!DOCTYPE html>
 <html xml:lang="en" lang="en">
@@ -67,17 +67,17 @@
 
 
 								<h5 style="margin:.5em;">
-									How many students per computer during the project?<br/>
-									<form:radiobutton path="maxWorkgroupSize" value='1'/>Always 1 student per computer.<br/>
-									<form:radiobutton path="maxWorkgroupSize" value='3'/>1, 2, or 3 students per computer.
+									在這個專題每台電腦分配幾位學生？<br/>
+									<form:radiobutton path="maxWorkgroupSize" value='1'/>每台電腦分配1位學生<br/>
+									<form:radiobutton path="maxWorkgroupSize" value='3'/>每台電腦分配1、2或3位學生
 								</h5>
 								<h5 style="margin:.5em;">
-									Select the storage level for this run<br/>
+									選擇執行專題的儲存等級<br/>
 									<c:choose>
 										<c:when test="${minPostLevel==5}">
 											<br/>
-											The author of this project requires that this run log students' data at the highest level. If you would<br/>
-											like to override this setting, please <a href="webapp/contactwisegeneral.html">contact WISE.</a><br/>
+											這個專題的作者需要以最高等級記錄學生資料。如果您<br/>
+											不想這樣設定請 <a href="webapp/contactwisegeneral.html">聯絡WISE</a><br/>
 										</c:when>
 										<c:otherwise>	
 											<c:forEach var='postLevel' items='${implementedPostLevels}'>

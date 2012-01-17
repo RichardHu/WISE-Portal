@@ -114,7 +114,8 @@
 		 * @return true iff project was successfully copied. 
 		 */
         function copy(pID, type, projectName, fileName, relativeProjectFilePathUrl){
-        	projectName = escape(projectName);
+        	//projectName = escape(projectName);
+			projectName = encodeURIComponent(projectName); //modified by Richard 2012/1/16
             var isSuccess = false;
             var newProjectId = null;
    			if(type=='LD'){

@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) 2007 Regents of the University of California (Regents). Created
  * by TELS, Graduate School of Education, University of California at Berkeley.
  *
@@ -122,8 +122,8 @@ public class CreateRunController extends AbstractWizardFormController {
 	
 	private final static Map<Long,String> POST_LEVEL_TEXT_MAP = new HashMap<Long,String>();
 	static {
-		POST_LEVEL_TEXT_MAP.put(5l, "High (more storage intensive; student activity in every step is recorded)");
-		POST_LEVEL_TEXT_MAP.put(1l, "Low  (less storage intensive; only work directly submitted by student is recorded)");
+		POST_LEVEL_TEXT_MAP.put(5l, "高 (記錄學生每個步驟的活動)");
+		POST_LEVEL_TEXT_MAP.put(1l, "低  (只記錄學生送出資料的活動)");
 			
 	}
 	

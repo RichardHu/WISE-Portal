@@ -1,4 +1,4 @@
-<%@ include file="../include.jsp"%>
+﻿<%@ include file="../include.jsp"%>
 <!--
   * Copyright (c) 2006 Encore Research Group, University of Toronto
   * 
@@ -157,7 +157,7 @@
 	<div><a href="../forgotaccount/student/index.html" id="forgotlink"><spring:message code="student.teamsignin.8"/></a>  </div>
 	
 	 <div id="finalRunProjectButton" onclick="setTimeout('self.close()', 15000);">
- 	    <input type="submit" class="wisebutton" name="_finish" value="Run Project" id="runproject" />
+ 	    <input type="submit" class="wisebutton" name="_finish" value="執行專題" id="runproject" />
 	</div>
 					
 	</form:form>

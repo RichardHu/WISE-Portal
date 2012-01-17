@@ -1,4 +1,4 @@
-<%@ include file="../../../include.jsp"%>
+﻿<%@ include file="../../../include.jsp"%>
 
 <!-- $Id: setupRun1.jsp 357 2007-05-03 00:49:48Z archana $ -->
 
@@ -198,20 +198,20 @@
 										<c:if test="${project.metadata.gradeRange != null && project.metadata.gradeRange != ''}">Grades ${project.metadata.gradeRange} | </c:if>
 										<c:if test="${project.metadata.totalTime != null && project.metadata.totalTime != ''}">Duration: ${project.metadata.totalTime} | </c:if>
 										<c:if test="${project.metadata.language != null && project.metadata.language != ''}">${project.metadata.language}</c:if>
-										<div style="float:right;">Created: <fmt:formatDate value="${project.dateCreated}" type="date" dateStyle="medium" /></div>
+										<div style="float:right;">建立： <fmt:formatDate value="${project.dateCreated}" type="date" dateStyle="medium" /></div>
 									</div>
-									<div id="summaryText_${project.id}" class="summaryText"><span style="font-weight:bold;">Summary:</span> ${project.metadata.summary}</div>
+									<div id="summaryText_${project.id}" class="summaryText"><span style="font-weight:bold;">摘要：</span> ${project.metadata.summary}</div>
 									<div class="details" id="details_${project.id}">
-										<c:if test="${project.metadata.keywords != null && project.metadata.keywords != ''}"><p><span style="font-weight:bold;">Tags:</span> ${project.metadata.keywords}</p></c:if>
+										<c:if test="${project.metadata.keywords != null && project.metadata.keywords != ''}"><p><span style="font-weight:bold;">標籤：</span> ${project.metadata.keywords}</p></c:if>
 										<c:if test="${project.metadata.techDetailsString != null && project.metadata.techDetailsString != ''}"><p><span style="font-weight:bold;">Tech Requirements:</span> ${project.metadata.techDetailsString}</p></c:if>
-										<c:if test="${project.metadata.compTime != null && project.metadata.compTime != ''}"><p><span style="font-weight:bold;">Computer Time:</span> ${project.metadata.compTime}</p></c:if>
-										<c:if test="${project.metadata.contact != null && project.metadata.contact != ''}"><p><span style="font-weight:bold;">Contact Info:</span> ${project.metadata.contact}</p></c:if>
-										<c:if test="${project.metadata.author != null && project.metadata.author != ''}"><p><span style="font-weight:bold;">Contributors:</span> ${project.metadata.author}</p></c:if>
+										<c:if test="${project.metadata.compTime != null && project.metadata.compTime != ''}"><p><span style="font-weight:bold;">電腦時間：</span> ${project.metadata.compTime}</p></c:if>
+										<c:if test="${project.metadata.contact != null && project.metadata.contact != ''}"><p><span style="font-weight:bold;">聯繫資訊：</span> ${project.metadata.contact}</p></c:if>
+										<c:if test="${project.metadata.author != null && project.metadata.author != ''}"><p><span style="font-weight:bold;">作者：</span> ${project.metadata.author}</p></c:if>
 										<c:set var="lastEdited" value="${project.metadata.lastEdited}" />
 										<c:if test="${lastEdited == null || lastEdited == ''}">
 											<c:set var="lastEdited" value="${project.dateCreated}" />
 										</c:if>
-										<p><span style="font-weight:bold;">Last Updated:</span> <fmt:formatDate value="${lastEdited}" type="both" dateStyle="medium" timeStyle="short" /></p>
+										<p><span style="font-weight:bold;">上次更新：</span> <fmt:formatDate value="${lastEdited}" type="both" dateStyle="medium" timeStyle="short" /></p>
 									</div>
 								</div>
 							</div>
